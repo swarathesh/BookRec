@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ea000f-b7a7-4c69-9b8c-29416699ea5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="d2ea000f-b7a7-4c69-9b8c-29416699ea5a" name="Default Changelist" comment="second commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +15,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="chandra swarathesh addanki" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bHPQaaI9o73z3yamr9ysVavwL0" />
@@ -60,7 +62,7 @@
       <workItem from="1588300767455" duration="12181000" />
       <workItem from="1588316432821" duration="54000" />
       <workItem from="1588349713965" duration="4362000" />
-      <workItem from="1588354755327" duration="9643000" />
+      <workItem from="1588354755327" duration="9946000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1588361003595</created>
@@ -69,13 +71,39 @@
       <option name="project" value="LOCAL" />
       <updated>1588361003595</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1588364608782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588364608782</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1588364679690</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588364679690</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
     <MESSAGE value="first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
@@ -88,18 +116,18 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="748" y="418" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/65.24.1855.1056@65.24.1855.1056" timestamp="1588315252118" />
-    <state x="536" y="87" key="CommitChangelistDialog2" timestamp="1588361003390">
+    <state x="536" y="87" key="CommitChangelistDialog2" timestamp="1588364657408">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="536" y="87" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1588361003390" />
+    <state x="536" y="87" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1588364657408" />
     <state x="858" y="136" key="SettingsEditor" timestamp="1588354954136">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="858" y="136" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1588354954136" />
-    <state x="592" y="261" key="Vcs.Push.Dialog.v2" timestamp="1588361061168">
+    <state x="592" y="261" key="Vcs.Push.Dialog.v2" timestamp="1588364611439">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="592" y="261" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1588361061168" />
+    <state x="592" y="261" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1588364611439" />
     <state x="655" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1588352341157">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
