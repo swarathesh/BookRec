@@ -46,19 +46,33 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 app.layout = html.Div(children=[
-    html.H4(children='Plotter'),
-    html.Div(
-        dcc.Input(id='input',placeholder='enter plot to search',type='text')
-         ),
-    html.Div(html.Button('Click',id='button',n_clicks=0)),
+    html.H1(children='Plotter',style={  'text-align':'center','padding':'30px'}),
+    html.Div(children=[
+      dcc.Input(id='input',placeholder='enter plot to search',type='text',style={'text-align':'center','padding':'10px'}),
+      html.Div(html.Button('Click',id='button',n_clicks=0))],
+    style={
+        'text-align':'center',
+        'padding-top' : '10px',
+        'margin' :'auto',
+        'block' : 'in-line'
 
-    html.Div(id='Output'),
-    html.Div([
+    }),
+
+
+    html.Div(id='body',children=[
     dcc.Graph(id='bar'),
     dcc.Graph(id='pie')
-        ])
-
-])
+        ],style={'visibility':'hidden'}),
+    html.Div(id='Output'),
+],style={
+    # 'position': 'absolute',
+    # 'top': '50 %',
+    # 'left':' 50 %',
+    # 'margin - top':' -50px',
+    # 'margin - left':' -50px',
+    # 'width':' 100px',
+    # 'height': '100px'
+})
 
 
 def plot_pie(df):
@@ -67,7 +81,8 @@ def plot_pie(df):
 
 
 @app.callback(
-    [dash.dependencies.Output('Output', 'children'),
+    [dash.dependencies.Output('body', 'style'),
+     dash.dependencies.Output('Output', 'children'),
      dash.dependencies.Output('bar', 'figure'),
      dash.dependencies.Output('pie', 'figure')],
     [dash.dependencies.Input('button', 'n_clicks')],
@@ -91,8 +106,7 @@ def update_output(n_clicks=0, value=' '):
         df = df.groupby(['book_name', 'description','genre'], as_index=False).agg({'similarity': pd.Series.mean}).sort_values(
             by='similarity', ascending=False).head(10)
 
-        return generate_table(df,value),plot_bar(df),plot_pie(df)
-
+        return {'visibility':'visible'},generate_table(df,value),plot_bar(df),plot_pie(df)
 
 
 
