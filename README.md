@@ -7,7 +7,9 @@ the project uses cosine similarity to find the similarity between the users plot
 
 **Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them.**
 
-![Image description]('https://ibb.co/gPFt6cS')
-![Image description]('https://ibb.co/QK88tsw')
+
+
+![alt text](1.png?raw=true)
+![alt text](2.png?raw=true)
 
 
